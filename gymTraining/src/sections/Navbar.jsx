@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="py-3 shadow bg-stone-600">
         <div className="container flex justify-around lg:justify-evenly  py-5 px-5">
           <Link
-            className="text-2xl mr-4 bg-stone-900 py-5 px-2  rounded-2xl font-poppins font-thin shadow-md"
+            className="text-2xl text-white mr-4 bg-stone-900 py-5 px-2  rounded-2xl font-poppins font-thin shadow-md"
             to="/"
           >
             Catalan Trainer
