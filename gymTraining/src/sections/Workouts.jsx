@@ -7,61 +7,25 @@ import {
   shoulder,
   triceps,
 } from "../assets/Vids&Pics";
+import MuscleCard from "../components/MuscleCard";
 
 const Workouts = () => {
   return (
-    <section className="bg-white w-full flex justify-center items-center h-screen ">
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-48 relative z-10 mt-auto">
-        <div>
-          <img
-            src={leg}
-            alt="leg"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
-        <div>
-          <img
-            src={back}
-            alt="back"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
-        <div>
-          <img
-            src={chest}
-            alt="chest"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
-        <div>
-          <img
-            src={shoulder}
-            alt="shoulder"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
-        <div>
-          <img
-            src={biceps}
-            alt="biceps"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
-        <div>
-          <img
-            src={triceps}
-            alt="triceps"
-            className="bg-white p-3 hover:shadow-2xl hover:border-2 border-gray-500"
-            width={200}
-          />
-        </div>
+    <>
+      <div className="bg-[#D8E4FF] flex justify-center font-poppins font-bold py-6 text-3xl ">
+        MUSCLES
       </div>
-    </section>
+      <section className="bg-[#D8E4FF]  flex justify-center items-center text-black p-10">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-48 relative z-10 mt-auto hover:cursor-pointer">
+          <MuscleCard muscleImage={leg} muscleName="Legs" />
+          <MuscleCard muscleImage={back} muscleName="Back" />
+          <MuscleCard muscleImage={chest} muscleName="Chest" />
+          <MuscleCard muscleImage={shoulder} muscleName="Shoulders" />
+          <MuscleCard muscleImage={biceps} muscleName="Biceps" />
+          <MuscleCard muscleImage={triceps} muscleName="Triceps" />
+        </div>
+      </section>
+    </>
   );
 };
 
