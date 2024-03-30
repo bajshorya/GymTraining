@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="container flex justify-around lg:justify-evenly  py-5 px-5">
           <Link
             className="text-2xl text-black font-semibold mr-4 bg-[#FE5D26] py-5 px-2  rounded-2xl font-poppins font-thin shadow-md"
-            to="/"
+            to="/home"
           >
             Catalan Trainer
           </Link>
