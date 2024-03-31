@@ -13,15 +13,15 @@ const Navbar = () => {
           </Link>
           <Link
             className="navbar-brand mr-4  rounded-3xl py-5 px-2"
-            to="/workouts"
+            to="/exercises"
           >
-            Workouts
+            Exercises
           </Link>
           <Link className="navbar-brand mr-4   py-5 px-2 " to="/diet">
             Diet
           </Link>
-          <Link className="navbar-brand mr-4   py-5 px-2 " to="/weekPlan">
-            Week Plan
+          <Link className="navbar-brand mr-4   py-5 px-2 " to="/routines">
+            Routines
           </Link>
         </div>
       </nav>
