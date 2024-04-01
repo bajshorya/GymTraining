@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <nav className="py-3 shadow bg-[#D8E4FF]">
+      <nav className="py-1 shadow bg-[#000000] text-white">
         <div className="container flex justify-around lg:justify-evenly  py-5 px-5">
           <Link
-            className="text-2xl text-black font-semibold mr-4 bg-[#FE5D26] py-5 px-2  rounded-2xl font-poppins font-thin shadow-md"
-            to="/home"
+            className="text-2xl font-semibold m-1  py-5 px-2  rounded-2xl font-poppins font-thin shadow-md"
+            to="/home "
           >
-            Catalan Trainer
+            <div className="m-1">Catalan Trainer</div>
           </Link>
           <Link
             className="navbar-brand mr-4  rounded-3xl py-5 px-2"
