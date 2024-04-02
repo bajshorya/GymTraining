@@ -6,7 +6,6 @@ const Exercises = () => {
     <>
       <section className="flex w-full font-bold text-3xl min-h-screen bg-[#99A1A6]">
         <div>
-          Muscle
           <div>
             <TrainingCard
               title="Back"
